@@ -6,14 +6,24 @@ h1 {
   text-align: center;
 }
 li {
+  margin: 70px;
+  text-align: center;
+  list-style: none;
   font-size: 25px;
-  margin-bottom: 10px;
-  color: rgb(245, 171, 12);
 }
 a {
-  font-size: 20px;
-  font-family: Verdana, sans-serif;
-  font-weight: bold;
-  color: black;
-  background-color: rgba(173, 216, 230, 0.3);
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  font-size: 23px;
+  border: 7px outset rgb(222, 222, 232);
+  border-radius: 20px;
+  font-family: Georgia, sans-serif;
+  color: #e7d40c;
+  text-shadow: 0 0 10px #e7d40c, 0 0 20px #e7d40c, 0 0 30px #e7d40c,
+    0 0 40px #e7d40c;
+  background-color: rgba(150, 230, 254, 0.3);
+}
+body {
+  background-color: rgb(22, 29, 34);
 }
